@@ -1,0 +1,68 @@
+* {margin: 0;padding: 0;}
+
+#main {margin: 30px auto;text-align: center;}
+
+#main .btns button {
+                    background-color: #ae00ae;
+                    outline: none;
+                    border: none;
+                    color: white;
+                    padding: 6px 16px 6px;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    margin: 0 20px 30px;
+                    cursor: pointer;
+}
+
+#main .btns button.active {background-color: #006eff;}
+
+table {
+       border-spacing: 1px;
+       margin: 0 auto;
+       background-color: #ece7e7;
+}
+
+td {
+    width: 35px;
+    height: 35px;
+    background-color: #cccccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    font-weight: bold;
+}
+
+#main .info {margin-top: 20px;}
+
+#main .content {
+                color: rgba(140, 0, 255, 0.836);
+                margin-top: 25px;
+                font-size: 20px;
+                font-weight: 700;
+                font-style: oblique;
+}
+
+#main .gameBox td.mines {background: url(../images/3.png) no-repeat;background-size: cover;}
+
+td.zero {border-color: #cccccc;background-color: #cccccc;}
+
+td.one {border-color: #cccccc;background-color: #cccccc;color: #ae00ae;}
+
+td.two {border-color: #cccccc;background-color: #cccccc;color: blue;}
+
+td.three {border-color: #cccccc;background-color: #cccccc;color: red;}
+
+td.four {border-color: #cccccc;background-color: #cccccc;color: green;}
+
+td.five {border-color: #cccccc;background-color: #cccccc;color: #ff7f29;}
+
+td.six {border-color: #cccccc;background-color: #cccccc;color: #ff3fff;}
+
+td.seven {border-color: #cccccc;background-color: #cccccc;color: #3ff2ff;}
+
+td.eight {border-color: #cccccc;background-color: #cccccc;color: #b2ee0f;}
+
+td.click {background: #cccccc url(../images/1.png);background-size: cover;}  
+
+.main {background: #c0c0c0 url(../images/3.png);background-size: cover;border-color: #cccccc;} 
+
+.flag {background: #c0c0c0 url(../images/2.gif);background-size: cover;}
